@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "lint": "eslint -c .eslintrc.json ./src/**/*.js",
+    "lint-fix": "npm run lint --fix",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
