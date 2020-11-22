@@ -6,7 +6,7 @@
  * import json from "./assets/demo.json";
  *
  * Configure webpack.config.js in case using alias, example:
- * import { Demo } from ".modules/demo";
+ * import { Demo } from "./models/index";
  * can be imported as
  * import { Demo } from "@models/index";
  */
