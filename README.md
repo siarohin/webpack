@@ -16,4 +16,4 @@ Run `npm run build`, so webpack builds app at `/dist`.
 
 ## ESLint
 
-Update `.eslintrc.json` for changing installed rules.
+Update `.eslintrc.js` for changing installed rules.
