@@ -11,8 +11,8 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
   "browserslist": "> 0.25%, not dead",
-  "license": "",
   "author": "",
+  "license": "ISC",  "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "normalize.css": "^8.0.1"
@@ -44,6 +44,7 @@
     "terser-webpack-plugin": "^4.2.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "": ""
   }
 }
