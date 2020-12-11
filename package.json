@@ -11,14 +11,14 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
   "browserslist": "> 0.25%, not dead",
-  "license": "",
   "author": "",
+  "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.6",
+    "@babel/core": "^7.12.7",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "babel-eslint": "^10.1.0",
