@@ -7,7 +7,8 @@ module.exports = {
   parser: "babel-eslint",
   extends: ["eslint-config-airbnb-base", "eslint-config-prettier"],
   rules: {
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   settings: {
     "import/resolver": {
